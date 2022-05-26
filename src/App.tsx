@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './components/Header/Header';
 import Mosaic from './components/Mosaic/Mosaic';
+import Videos from './components/Videos/Videos';
 import Profile from './components/Profile/Profile';
 import Services from './components/Services/Services';
 
@@ -14,23 +15,7 @@ function App() {
       <Mosaic />
       <Services />
       <Profile />
-
-      <section className="videos">
-        <div className="container">
-          <div className="box-video">
-            <iframe title="video 1" src="https://www.youtube.com/embed/UhuoLV2u3u8" frameBorder="0" allowFullScreen />
-          </div>
-
-          <div className="box-video">
-            <iframe title="video 1" src="https://www.youtube.com/embed/UhuoLV2u3u8" frameBorder="0" allowFullScreen />
-          </div>
-
-          <div className="box-video">
-            <iframe title="video 1" src="https://www.youtube.com/embed/UhuoLV2u3u8" frameBorder="0" allowFullScreen />
-          </div>
-          <div className="clear" />
-        </div>
-      </section>
+      <Videos />
 
       <section className="tratamentos">
         <h2>Tratamentos</h2>

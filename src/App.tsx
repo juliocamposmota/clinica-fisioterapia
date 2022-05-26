@@ -1,36 +1,11 @@
 import React from 'react';
+import Header from './components/Header/Header';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <header>
-        <div className="container">
-          <div className="logo">
-            <img src="./src/images/logo.png" alt="logo" />
-          </div>
-
-          <nav className="menu-desktop">
-            <ul>
-              <li><a href="/">quem sou</a></li>
-              <li><a href="/">depoimentos</a></li>
-              <li><a href="/">sobre</a></li>
-              <li><a href="/">contato</a></li>
-            </ul>
-          </nav>
-
-          <nav className="menu-mobile">
-            <ul>
-              <li><a href="/">quem sou</a></li>
-              <li><a href="/">depoimentos</a></li>
-              <li><a href="/">sobre</a></li>
-              <li><a href="/">contato</a></li>
-            </ul>
-          </nav>
-
-          <div className="clear" />
-        </div>
-      </header>
+      <Header />
 
       <section className="mosaico">
         <div className="container">

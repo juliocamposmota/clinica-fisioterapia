@@ -5,9 +5,10 @@ import Mosaic from './components/Mosaic/Mosaic';
 import Videos from './components/Videos/Videos';
 import Profile from './components/Profile/Profile';
 import Services from './components/Services/Services';
+import Treatments from './components/Treatments/Treatments';
+import Depositions from './components/Depositions/Depositions';
 
 import './App.css';
-import Treatments from './components/Treatments/Treatments';
 
 function App() {
   return (
@@ -18,22 +19,7 @@ function App() {
       <Profile />
       <Videos />
       <Treatments />
-
-      <section className="depoimentos">
-        <h2>Depoimentos</h2>
-
-        <div className="container">
-          <div className="depoimento-single">
-            <p>
-              “Estrutura e atendimento excepcionais! adorei o atendimento da Dra. Fernanda, excelente profissional.”
-            </p>
-            <div className="nome-depoimento">
-              <img src="imagens/depoimento1.png" alt="depoimento" />
-              <span>Maria Augusta Santos</span>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Depositions />
 
       <section className="social">
         <div className="instagram-chamada">

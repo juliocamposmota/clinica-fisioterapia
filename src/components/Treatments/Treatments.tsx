@@ -1,6 +1,9 @@
 import React, { ReactElement } from 'react';
+import treatments from '../../fakeData/tratments';
 
 function Treatments(): ReactElement {
+  const [firstTreatment] = treatments;
+
   return (
     <section className="tratamentos">
       <h2>Tratamentos</h2>
@@ -8,52 +11,8 @@ function Treatments(): ReactElement {
       <div className="container">
         <div className="tratamento-container">
           <div className="tratamento-single">
-            <h2>Profilaxia e Prevenção</h2>
-            <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e evitadas com a ida regular ao dentista. </p>
-          </div>
-
-          <div className="tratamento-single">
-            <h2>Profilaxia e Prevenção</h2>
-            <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e evitadas com a ida regular ao dentista. </p>
-          </div>
-
-          <div className="tratamento-single">
-            <h2>Profilaxia e Prevenção</h2>
-            <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e evitadas com a ida regular ao dentista. </p>
-          </div>
-        </div>
-
-        <div className="tratamento-container">
-          <div className="tratamento-single">
-            <h2>Profilaxia e Prevenção</h2>
-            <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e evitadas com a ida regular ao dentista. </p>
-          </div>
-
-          <div className="tratamento-single">
-            <h2>Profilaxia e Prevenção</h2>
-            <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e evitadas com a ida regular ao dentista. </p>
-          </div>
-
-          <div className="tratamento-single">
-            <h2>Profilaxia e Prevenção</h2>
-            <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e evitadas com a ida regular ao dentista. </p>
-          </div>
-        </div>
-
-        <div className="tratamento-container">
-          <div className="tratamento-single">
-            <h2>Profilaxia e Prevenção</h2>
-            <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e evitadas com a ida regular ao dentista. </p>
-          </div>
-
-          <div className="tratamento-single">
-            <h2>Profilaxia e Prevenção</h2>
-            <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e evitadas com a ida regular ao dentista. </p>
-          </div>
-
-          <div className="tratamento-single">
-            <h2>Profilaxia e Prevenção</h2>
-            <p>Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e evitadas com a ida regular ao dentista. </p>
+            <h2>{firstTreatment.name}</h2>
+            <p>{firstTreatment.description}</p>
           </div>
         </div>
 

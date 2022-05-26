@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './components/Header/Header';
 import Mosaic from './components/Mosaic/Mosaic';
+import Profile from './components/Profile/Profile';
 import Services from './components/Services/Services';
 
 import './App.css';
@@ -12,22 +13,7 @@ function App() {
       <Header />
       <Mosaic />
       <Services />
-
-      <section className="perfil-container">
-        <div className="container">
-          <div className="perfil-wraper">
-            <div className="perfil-wraper2">
-              <div className="img-perfil" />
-
-              <div className="texto-perfil">
-                <h2>TÍTULO DO PROFISSIONAL</h2>
-
-                <p />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Profile />
 
       <section className="videos">
         <div className="container">

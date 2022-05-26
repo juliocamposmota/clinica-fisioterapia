@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header/Header';
 import Mosaic from './components/Mosaic/Mosaic';
 import Videos from './components/Videos/Videos';
+import Contact from './components/Contact/Contact';
 import Profile from './components/Profile/Profile';
 import Services from './components/Services/Services';
 import Treatments from './components/Treatments/Treatments';
@@ -22,38 +23,7 @@ function App() {
       <Treatments />
       <Depositions />
       <SocialMedia />
-
-      <section className="contato">
-        <h2>Contato</h2>
-
-        <form>
-          <div className="form-wraper w100">
-            <span>Nome:</span>
-            <input placeholder="" name="nome" type="text" />
-          </div>
-
-          <div className="form-wraper w50">
-            <span>E-mail:</span>
-            <input placeholder="" name="e-mail" type="text" />
-          </div>
-
-          <div className="form-wraper w50">
-            <span>Telefone:</span>
-            <input placeholder="" name="e-mail" type="text" />
-          </div>
-
-          <div className="form-wraper w100">
-            <span>Mensagem:</span>
-            <textarea placeholder="" />
-          </div>
-
-          <div className="form-wraper w100" style={{ textAlign: 'center' }}>
-            <input type="submit" name="acao" value="Enviar" />
-          </div>
-
-          <div className="clear" />
-        </form>
-      </section>
+      <Contact />
 
       <footer>
         <div className="container">

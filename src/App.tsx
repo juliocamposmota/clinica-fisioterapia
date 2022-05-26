@@ -1,6 +1,9 @@
 import React from 'react';
+
 import Header from './components/Header/Header';
 import Mosaic from './components/Mosaic/Mosaic';
+import Services from './components/Services/Services';
+
 import './App.css';
 
 function App() {
@@ -8,34 +11,7 @@ function App() {
     <div>
       <Header />
       <Mosaic />
-
-      <section className="servicos">
-        <div className="container">
-          <div className="box-servico">
-            <h2>Lorem ipsum</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris ullamcorper.
-            </p>
-          </div>
-
-          <div className="box-servico">
-            <h2>Lorem ipsum</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris ullamcorper.
-            </p>
-          </div>
-
-          <div className="box-servico">
-            <h2>Lorem ipsum</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris ullamcorper.
-            </p>
-          </div>
-        </div>
-      </section>
+      <Services />
 
       <section className="perfil-container">
         <div className="container">

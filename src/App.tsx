@@ -1,47 +1,13 @@
 import React from 'react';
 import Header from './components/Header/Header';
+import Mosaic from './components/Mosaic/Mosaic';
 import './App.css';
 
 function App() {
   return (
     <div>
       <Header />
-
-      <section className="mosaico">
-        <div className="container">
-          <div className="mosaico-wraper">
-            <div className="mosaico-single">
-              <div className="img-mosaico-single" />
-              <div className="img-mosaico-single" />
-            </div>
-
-            <div className="mosaico-single">
-              <div className="img-mosaico-single" />
-              <div className="img-mosaico-single" />
-            </div>
-
-            <div className="mosaico-single">
-              <div className="img-mosaico-single" />
-              <div className="img-mosaico-single" />
-            </div>
-
-            <div className="mosaico-single">
-              <div className="img-mosaico-single" />
-              <div className="img-mosaico-single" />
-            </div>
-
-            <div className="mosaico-single">
-              <div className="img-mosaico-single" />
-              <div className="img-mosaico-single" />
-            </div>
-
-            <div className="mosaico-single">
-              <div className="img-mosaico-single" />
-              <div className="img-mosaico-single" />
-            </div>
-          </div>
-        </div>
-      </section>
+      <Mosaic />
 
       <section className="servicos">
         <div className="container">

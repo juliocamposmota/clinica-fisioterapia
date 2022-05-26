@@ -28,7 +28,7 @@ function App() {
             </ul>
           </nav>
 
-          <div className="clear"></div>
+          <div className="clear" />
         </div>
       </header>
 
@@ -36,33 +36,33 @@ function App() {
         <div className="container">
           <div className="mosaico-wraper">
             <div className="mosaico-single">
-              <div className="img-mosaico-single"></div>
-              <div className="img-mosaico-single"></div>
+              <div className="img-mosaico-single" />
+              <div className="img-mosaico-single" />
             </div>
 
             <div className="mosaico-single">
-              <div className="img-mosaico-single"></div>
-              <div className="img-mosaico-single"></div>
+              <div className="img-mosaico-single" />
+              <div className="img-mosaico-single" />
             </div>
 
             <div className="mosaico-single">
-              <div className="img-mosaico-single"></div>
-              <div className="img-mosaico-single"></div>
+              <div className="img-mosaico-single" />
+              <div className="img-mosaico-single" />
             </div>
 
             <div className="mosaico-single">
-              <div className="img-mosaico-single"></div>
-              <div className="img-mosaico-single"></div>
+              <div className="img-mosaico-single" />
+              <div className="img-mosaico-single" />
             </div>
 
             <div className="mosaico-single">
-              <div className="img-mosaico-single"></div>
-              <div className="img-mosaico-single"></div>
+              <div className="img-mosaico-single" />
+              <div className="img-mosaico-single" />
             </div>
 
             <div className="mosaico-single">
-              <div className="img-mosaico-single"></div>
-              <div className="img-mosaico-single"></div>
+              <div className="img-mosaico-single" />
+              <div className="img-mosaico-single" />
             </div>
           </div>
         </div>
@@ -72,20 +72,26 @@ function App() {
         <div className="container">
           <div className="box-servico">
             <h2>Lorem ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris ullamcorper.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Mauris ullamcorper.
+            </p>
           </div>
 
           <div className="box-servico">
             <h2>Lorem ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris ullamcorper.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Mauris ullamcorper.
+            </p>
           </div>
 
           <div className="box-servico">
             <h2>Lorem ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris ullamcorper.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Mauris ullamcorper.
+            </p>
           </div>
         </div>
       </section>
@@ -94,12 +100,12 @@ function App() {
         <div className="container">
           <div className="perfil-wraper">
             <div className="perfil-wraper2">
-              <div className="img-perfil"></div>
+              <div className="img-perfil" />
 
               <div className="texto-perfil">
                 <h2>TÍTULO DO PROFISSIONAL</h2>
 
-                <p></p>
+                <p />
               </div>
             </div>
           </div>
@@ -109,17 +115,17 @@ function App() {
       <section className="videos">
         <div className="container">
           <div className="box-video">
-            <iframe title="video 1" src="https://www.youtube.com/embed/UhuoLV2u3u8" frameBorder="0" allowFullScreen></iframe>
+            <iframe title="video 1" src="https://www.youtube.com/embed/UhuoLV2u3u8" frameBorder="0" allowFullScreen />
           </div>
 
           <div className="box-video">
-            <iframe title="video 1" src="https://www.youtube.com/embed/UhuoLV2u3u8" frameBorder="0" allowFullScreen></iframe>
+            <iframe title="video 1" src="https://www.youtube.com/embed/UhuoLV2u3u8" frameBorder="0" allowFullScreen />
           </div>
 
           <div className="box-video">
-            <iframe title="video 1" src="https://www.youtube.com/embed/UhuoLV2u3u8" frameBorder="0" allowFullScreen></iframe>
+            <iframe title="video 1" src="https://www.youtube.com/embed/UhuoLV2u3u8" frameBorder="0" allowFullScreen />
           </div>
-          <div className="clear"></div>
+          <div className="clear" />
         </div>
       </section>
 
@@ -178,7 +184,7 @@ function App() {
             </div>
           </div>
 
-          <div className="clear"></div>
+          <div className="clear" />
         </div>
       </section>
 
@@ -201,7 +207,11 @@ function App() {
       <section className="social">
         <div className="instagram-chamada">
           <a target="_blank" rel="noreferrer" href="http://instagram.com"><img src="imagens/inst.png" alt="instagram" /></a>
-          <p>Acesse o Instagram para ver mais fotos<br />@dra.fernanda_slovinski</p>
+          <p>
+            Acesse o Instagram para ver mais fotos
+            <br />
+            @dra.fernanda_slovinski
+          </p>
         </div>
 
         <div className="mosaico-social">
@@ -218,10 +228,14 @@ function App() {
 
         <div className="facebook-chamada">
           <a target="_blank" rel="noreferrer" href="http://facebook.com"><img src="imagens/fb.png" alt="facebook" /></a>
-          <p>Acesse o Instagram para ver mais fotos<br />@dra.fernanda_slovinski</p>
+          <p>
+            Acesse o Instagram para ver mais fotos
+            <br />
+            @dra.fernanda_slovinski
+          </p>
         </div>
 
-        <div className="clear"></div>
+        <div className="clear" />
       </section>
 
       <section className="contato">
@@ -245,14 +259,14 @@ function App() {
 
           <div className="form-wraper w100">
             <span>Mensagem:</span>
-            <textarea placeholder=""></textarea>
+            <textarea placeholder="" />
           </div>
 
-          <div className="form-wraper w100" style={{ textAlign: "center" }}>
+          <div className="form-wraper w100" style={{ textAlign: 'center' }}>
             <input type="submit" name="acao" value="Enviar" />
           </div>
 
-          <div className="clear"></div>
+          <div className="clear" />
         </form>
       </section>
 
@@ -260,21 +274,32 @@ function App() {
         <div className="container">
           <div className="footer-block">
             <h2>Telefone</h2>
-            <p>(48)9999-9999<br/>(48)9999-9999</p>
+            <p>
+              (48)9999-9999
+              <br />
+              (48)9999-9999
+            </p>
           </div>
 
           <div className="footer-block">
             <h2>Horários</h2>
-            <p>Segunda a sexta<br/>08:00 até 12:00</p>
+            <p>
+              Segunda a sexta
+              <br />
+              08:00 até 12:00
+            </p>
           </div>
 
           <div className="footer-block">
             <h2>Endereço</h2>
-            <p>Av. Trompowsky, 291. Torre 1 Sala 103<br />
-            Cep 88015300 - Florianópolis, SC. 8802001</p>
+            <p>
+              Av. Trompowsky, 291. Torre 1 Sala 103
+              <br />
+              Cep 88015300 - Florianópolis, SC. 8802001
+            </p>
           </div>
 
-          <div className="clear"></div>
+          <div className="clear" />
         </div>
       </footer>
     </div>

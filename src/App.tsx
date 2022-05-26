@@ -11,8 +11,6 @@ import Treatments from './components/Treatments/Treatments';
 import Depositions from './components/Depositions/Depositions';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 
-import './App.css';
-
 function App() {
   return (
     <div>

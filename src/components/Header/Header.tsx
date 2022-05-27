@@ -1,34 +1,30 @@
 import React, { ReactElement } from 'react';
+import HeaderComponent from './styles';
+import logo from '../../images/logo.png';
 
 function Header(): ReactElement {
   return (
-    <header>
-      <div className="container">
-        <div className="logo">
-          <img src="./src/images/logo.png" alt="logo" />
-        </div>
+    <HeaderComponent>
+      <img src={logo} alt="logo" />
 
-        <nav className="menu-desktop">
-          <ul>
-            <li><a href="/">quem sou</a></li>
-            <li><a href="/">depoimentos</a></li>
-            <li><a href="/">sobre</a></li>
-            <li><a href="/">contato</a></li>
-          </ul>
-        </nav>
+      <nav className="menu-desktop">
+        <ul>
+          <li><a href="/">quem sou</a></li>
+          <li><a href="/">depoimentos</a></li>
+          <li><a href="/">tratamentos</a></li>
+          <li><a href="/">contato</a></li>
+        </ul>
+      </nav>
 
-        <nav className="menu-mobile">
-          <ul>
-            <li><a href="/">quem sou</a></li>
-            <li><a href="/">depoimentos</a></li>
-            <li><a href="/">sobre</a></li>
-            <li><a href="/">contato</a></li>
-          </ul>
-        </nav>
-
-        <div className="clear" />
-      </div>
-    </header>
+      <nav className="menu-mobile">
+        <ul>
+          <li><a href="/">quem sou</a></li>
+          <li><a href="/">depoimentos</a></li>
+          <li><a href="/">tratamentos</a></li>
+          <li><a href="/">contato</a></li>
+        </ul>
+      </nav>
+    </HeaderComponent>
   );
 }
 

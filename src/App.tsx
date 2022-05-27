@@ -2,7 +2,7 @@ import React from 'react';
 
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Mosaic from './components/Mosaic/Mosaic';
+import Banner from './components/Banner/Banner';
 import Videos from './components/Videos/Videos';
 import Contact from './components/Contact/Contact';
 import Profile from './components/Profile/Profile';
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Mosaic />
+      <Banner />
       <Services />
       <Profile />
       <Videos />

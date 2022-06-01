@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 const HeaderComponent = styled.div`
-  padding: 4% 2%;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 3% 2%;
 
   li {
     padding: 0 10px;
@@ -13,6 +15,7 @@ const HeaderComponent = styled.div`
 
   a {
     text-decoration: none;
+    font-size: 19px;
   }
 
   .menu-mobile {

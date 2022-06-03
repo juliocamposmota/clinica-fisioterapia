@@ -6,6 +6,9 @@ const BannerComponent = styled.div`
   justify-content: center;
 
   img {
+    height: 600px;
+    object-fit: cover;
+    object-position: 0px -130px;
     width: 100vw;
   }
 `;

@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
-const HeaderComponent = styled.div`
-  align-items: center;
+const Header = styled.div`
+  /* min-height: 156px; */
+`;
+
+const Navigator = styled.nav`
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 3% 2%;
+  align-items: center;
+  flex-wrap: nowrap;
 
   li {
     padding: 0 10px;
@@ -18,8 +20,26 @@ const HeaderComponent = styled.div`
     font-size: 19px;
   }
 
-  .menu-mobile {
-    display: none;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 0.75rem 0.75rem;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .menu-desktop {
+    display: flex;
+    flex-basis: auto;
+    justify-content: flex-end;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  .logo {
+    width: 290px;
   }
 
   .menu-desktop ul {
@@ -29,4 +49,7 @@ const HeaderComponent = styled.div`
   }
 `;
 
-export default HeaderComponent;
+export {
+  Header,
+  Navigator,
+};

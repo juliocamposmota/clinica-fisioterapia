@@ -1,6 +1,7 @@
 import React, { ReactElement } from 'react';
-import { Header, Navigator } from './styles';
+
 import logo from '../../images/logo.png';
+import { Header, Navigator } from './styles';
 
 function HeaderComponent(): ReactElement {
   return (

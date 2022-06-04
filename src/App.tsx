@@ -3,9 +3,7 @@ import React from 'react';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Banner from './components/Banner/Banner';
-import Videos from './components/Videos/Videos';
 import Contact from './components/Contact/Contact';
-import Profile from './components/Profile/Profile';
 import Services from './components/Services/Services';
 import Treatments from './components/Treatments/Treatments';
 import Depositions from './components/Depositions/Depositions';
@@ -17,8 +15,6 @@ function App() {
       <Header />
       <Banner />
       <Services />
-      <Profile />
-      <Videos />
       <Treatments />
       <Depositions />
       <SocialMedia />

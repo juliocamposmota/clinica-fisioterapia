@@ -1,13 +1,13 @@
 import React, { ReactElement } from 'react';
-import BannerComponent from './styles';
+import Banner from './styles';
 import mainBanner from '../../images/banner.jpeg';
 
-function Banner(): ReactElement {
+function BannerComponent(): ReactElement {
   return (
-    <BannerComponent>
+    <Banner>
       <img src={mainBanner} alt="main banner" />
-    </BannerComponent>
+    </Banner>
   );
 }
 
-export default Banner;
+export default BannerComponent;

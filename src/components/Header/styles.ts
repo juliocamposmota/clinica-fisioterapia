@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Header = styled.div`
+const Header = styled.header`
   /* min-height: 156px; */
 `;
 

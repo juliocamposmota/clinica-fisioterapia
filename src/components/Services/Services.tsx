@@ -1,35 +1,23 @@
 import React, { ReactElement } from 'react';
 
-function Services(): ReactElement {
+import { Services } from './styles';
+import BoxServiceComponent from './BoxService';
+import services from '../../fakeData/services';
+
+function ServicesComponent(): ReactElement {
   return (
-    <section className="servicos">
-      <div className="container">
-        <div className="box-servico">
-          <h2>Lorem ipsum</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris ullamcorper.
-          </p>
-        </div>
+    <Services>
+      <h2>Serviços</h2>
 
-        <div className="box-servico">
-          <h2>Lorem ipsum</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris ullamcorper.
-          </p>
-        </div>
-
-        <div className="box-servico">
-          <h2>Lorem ipsum</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris ullamcorper.
-          </p>
+      <div className="services">
+        <div className="container">
+          { services.map(({ name, icon }) => (
+            <BoxServiceComponent name={name} physioIcon={icon} />
+          ))}
         </div>
       </div>
-    </section>
+    </Services>
   );
 }
 
-export default Services;
+export default ServicesComponent;
